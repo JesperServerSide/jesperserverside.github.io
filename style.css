@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -65,15 +67,23 @@ button {
 	padding: 1rem 3rem;
 	font-size: 1rem;
 	border: none;
-	color: #2D2D2D;
-	background: #FFFFFF;
+	/* 
+	background: #3B3B3B;
+	color: #FFFFFF; 
+	*/
+	background: #3B3B3B;
+	color: #FFFFFF;
 	cursor: pointer;
 	border-radius: 30px;
 }
 
 button:hover {
-	background: #3B3B3B;
-	color: #FFFFFF;
+	/* 
+		background: #FFFFFF;
+		color: #3B3B3B;
+	*/
+	background: #FFFFFF;
+	color: #3B3B3B;
 }
 
 .column-right {
