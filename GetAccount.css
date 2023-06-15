@@ -65,16 +65,25 @@ button {
 	padding: 1rem 3rem;
 	font-size: 1rem;
 	border: none;
-	color: #2D2D2D;
-	background: #FFFFFF;
+	/* 
+	background: #3B3B3B;
+	color: #FFFFFF; 
+	*/
+	background: #3B3B3B;
+	color: #FFFFFF;
 	cursor: pointer;
 	border-radius: 30px;
 }
 
 button:hover {
-	background: #3B3B3B;
-	color: #FFFFFF;
+	/* 
+		background: #FFFFFF;
+		color: #3B3B3B;
+	*/
+	background: #FFFFFF;
+	color: #3B3B3B;
 }
+
 
 .column-right {
 	display: flex;
